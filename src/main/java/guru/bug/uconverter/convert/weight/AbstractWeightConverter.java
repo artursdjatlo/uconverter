@@ -6,7 +6,7 @@
 
 package guru.bug.uconverter.convert.weight;
 
-import guru.bug.uconverter.model.Converter;
+import guru.bug.uconverter.convert.AbstractConverter;
 import guru.bug.uconverter.model.UnitType;
 
 /**
@@ -14,7 +14,7 @@ import guru.bug.uconverter.model.UnitType;
  * @version 1.0
  * @since 1.0
  */
-public abstract class AbstractWeightConverter implements Converter {
+public abstract class AbstractWeightConverter extends AbstractConverter {
     @Override
     public UnitType getUnitType() {
         return UnitType.WEIGHT;

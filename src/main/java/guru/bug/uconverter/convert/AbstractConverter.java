@@ -4,19 +4,19 @@
  * See the LICENSE file for details.
  */
 
-package guru.bug.uconverter.convert.temperature;
+package guru.bug.uconverter.convert;
 
-import guru.bug.uconverter.convert.AbstractConverter;
-import guru.bug.uconverter.model.UnitType;
+import guru.bug.uconverter.model.Converter;
 
 /**
  * @author Dimitrijs Fedotovs <a href="http://www.bug.guru">www.bug.guru</a>
  * @version 1.0
  * @since 1.0
  */
-public abstract class AbstractTemperatureConverter extends AbstractConverter {
+public abstract class AbstractConverter implements Converter {
+
     @Override
-    public UnitType getUnitType() {
-        return UnitType.TEMPERATURE;
+    public String toString() {
+        return getUnitName();
     }
 }

@@ -12,7 +12,18 @@ package guru.bug.uconverter.model;
  * @since 1.0
  */
 public enum UnitType {
-    TEMPERATURE,
-    LENGTH,
-    WEIGHT
+    TEMPERATURE("Temperature"),
+    LENGTH("Length"),
+    WEIGHT("Weight");
+
+    private final String label;
+
+    UnitType(String label) {
+        this.label = label;
+    }
+
+    @Override
+    public String toString() {
+        return label;
+    }
 }

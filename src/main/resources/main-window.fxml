@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  ~ Copyright (c) 2017 Dimitrijs Fedotovs
+  ~ This software may be modified and distributed under the terms of the MIT license.
+  ~ See the LICENSE file for details.
+  -->
+
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.*?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="guru.bug.uconverter.ui.MainController">
+
+    <TabPane fx:id="unitTypeTabs"
+             AnchorPane.topAnchor="0"
+             AnchorPane.leftAnchor="0"
+             AnchorPane.rightAnchor="0"
+             AnchorPane.bottomAnchor="0"/>
+</AnchorPane>
