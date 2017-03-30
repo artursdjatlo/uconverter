@@ -7,14 +7,11 @@
   -->
 
 <?import javafx.scene.control.TabPane?>
-<?import javafx.scene.layout.*?>
-<AnchorPane xmlns="http://javafx.com/javafx"
+<?import javafx.scene.layout.BorderPane?>
+<BorderPane xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
             fx:controller="guru.bug.uconverter.ui.MainController">
-
-    <TabPane fx:id="unitTypeTabs"
-             AnchorPane.topAnchor="0"
-             AnchorPane.leftAnchor="0"
-             AnchorPane.rightAnchor="0"
-             AnchorPane.bottomAnchor="0"/>
-</AnchorPane>
+    <center>
+        <TabPane fx:id="unitTypeTabs"/>
+    </center>
+</BorderPane>

@@ -18,15 +18,18 @@
               hgap="10"
               vgap="10">
         <Label text="Source Unit"
-               GridPane.columnIndex="0" GridPane.rowIndex="0" GridPane.hgrow="SOMETIMES"/>
+               GridPane.columnIndex="0"
+               GridPane.rowIndex="0"
+               GridPane.hgrow="NEVER"/>
+
         <ComboBox fx:id="sourceCombo"
                   GridPane.columnIndex="1" GridPane.rowIndex="0"
-                  GridPane.hgrow="ALWAYS"/>
+                  GridPane.hgrow="ALWAYS" maxWidth="Infinity"/>
         <Label text="Target Unit"
-               GridPane.columnIndex="2" GridPane.rowIndex="0" GridPane.hgrow="SOMETIMES"/>
+               GridPane.columnIndex="2" GridPane.rowIndex="0" GridPane.hgrow="NEVER"/>
         <ComboBox fx:id="targetCombo"
                   GridPane.columnIndex="3" GridPane.rowIndex="0"
-                  GridPane.hgrow="ALWAYS"/>
+                  GridPane.hgrow="ALWAYS" maxWidth="Infinity"/>
 
         <Label text="Source value"
                GridPane.columnIndex="0" GridPane.rowIndex="1" GridPane.hgrow="SOMETIMES"/>
