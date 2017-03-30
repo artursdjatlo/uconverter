@@ -20,7 +20,7 @@ public class FahrenheitConverter extends AbstractTemperatureConverter {
 
     @Override
     public double toStandard(double fahrenheit) {
-        return (fahrenheit - 32.0) / 1.8 + 273.5;
+        return (fahrenheit - 32.0) / 1.8 + 273.15;
     }
 
     @Override

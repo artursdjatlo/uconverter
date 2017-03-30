@@ -24,7 +24,7 @@ public class Conversion {
         this.target = target;
     }
 
-    private double convert(double sourceValue) {
+    double convert(double sourceValue) {
         double std = source.toStandard(sourceValue);
         return target.fromStandard(std);
     }
